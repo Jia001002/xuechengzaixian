@@ -1,0 +1,140 @@
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 14px;
+    width: 80px;
+}
+.sk a {
+    display: block;
+    height: 33px;
+    line-height: 33px;
+    padding-left: 13px;
+    border-left: 1px solid #b1191a;
+}
+/* nav */
+.sk_list {
+    float: left;
+}
+.sk_list li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 28px;
+}
+.sk_list li a {
+    font-size: 16px;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+    margin-left: 30px;
+}
+.sk_con li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 23px;
+}
+.sk_con ul li:last-child::after {
+    content: '\f107';
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    margin-left: 4px;
+}
+.sk_con li a {
+    font-size: 14px;
+}
+/* 主要产品 */
+.sk_container {
+    margin-bottom: 256px;
+}
+.sk_bd {
+    margin-top: 25px;
+}
+.sk_bd ul {
+    width: 1220px;
+}
+.sk_bd ul li {
+    position: relative;
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    border: 1px solid transparent;
+}
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+.sk_bd ul li .img_shouji {
+    height: 292px;
+    overflow: hidden;
+    text-align: center;
+}
+.sk_bd ul li .text {
+    padding: 0  10px 0 12px;
+}
+.sk_bd ul li .text h4{
+    font-size: 14px;
+    font-weight: 400;
+}
+.sk_bd ul li .text .price {
+    margin-top: 8px;
+}
+.sk_bd ul li .text .price .miaosha {
+    font-size: 22px;
+    color: #e71020;
+}
+.sk_bd ul li .text .price .origin {
+    font-size: 14px;
+    color: f1f1f1;
+    text-decoration: line-through;
+}
+.sk_bd ul li .text .price_c {
+    margin-top: 8px;
+}
+.sk_bd ul li .text .price_c p {
+    font-size: 14px;
+    line-height: 14px;
+    float: left;
+}
+.sk_bd ul li .text .price_c .show_box {
+    float: left;
+    display: inline-block;
+    width: 126px;
+    height: 14px;
+    border: 1px solid #ed282e;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sk_bd ul li .text .price_c .show_box span {
+    float: left;
+    width: 80%;
+    height: 12px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    background-color: #ed282e;
+}
+.sk_bd ul li .text .price_c .count {
+    color: #e33d41;
+}
+.sk_bd ul li .buy {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #f6eaea;
+}
+.clearfix::before,.clearfix::after {
+    content: '';
+    display: table;
+}
+.clearfix::before {
+    clear: both;
+}
